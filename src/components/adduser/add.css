@@ -1,0 +1,61 @@
+.addUser{
+    width: 25%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.addUserForm {
+    margin-top: 20px;
+}
+
+.addUserForm .inputGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addUserForm .inputGroup label{
+    margin-bottom: 5px;
+}
+
+.addUserForm .inputGroup input{
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.addUserForm .inputGroup button{
+    border: 0;
+    outline: none;
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    margin-top: 20px;
+}
+
+.addUser h3{
+    margin-top: 10px;
+}
+.addUserForm .inputGroup {
+    position: relative;
+}
+.addUserForm .inputGroup .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 63%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.addUserForm .inputGroup input[type='password'] {
+    padding-right: 30px;
+}
+
