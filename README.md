@@ -1,3 +1,23 @@
+## Live Demo https://flourishing-kashata-23cdd8.netlify.app/
+
+
+# Task is Crud App
+
+Here i have used reqres.in Api for crud Operation .
+in this api put and post method we can't do beacuse it is dummy api their is no database
+# i have used Db json server npm install -g json-server. 
+# and for watching json-server --watch db.json --port 8080
+
+Here i have used redux tookit for global state management 
+Here i have used Toaster for validation purspose and validation.js
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
